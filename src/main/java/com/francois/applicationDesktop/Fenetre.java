@@ -14,7 +14,7 @@ public class Fenetre extends JFrame {
 
         setSize(500,500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-
+//        Ajout au panneau principale avec 5 zones (North , East , South , West , Center)
         JPanel panneau = new JPanel(new BorderLayout());
 
         setContentPane(panneau);
